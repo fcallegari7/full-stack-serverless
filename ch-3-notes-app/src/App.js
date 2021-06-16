@@ -144,6 +144,10 @@ function App() {
     }).subscribe({
       next: (noteData) => {
         const note = noteData.value.data.onCreateNote;
+        if (note === null) {
+          fetchNotes();
+          return;
+        }
         if (CLIENT_ID === note.clientId) return;
         dispatch({ type: "ADD_NOTE", note });
       },
