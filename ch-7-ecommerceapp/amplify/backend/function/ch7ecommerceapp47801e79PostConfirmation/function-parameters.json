@@ -1,0 +1,18 @@
+{
+  "trigger": true,
+  "modules": [
+    "add-to-group"
+  ],
+  "parentResource": "ch7ecommerceapp47801e79",
+  "functionName": "ch7ecommerceapp47801e79PostConfirmation",
+  "resourceName": "ch7ecommerceapp47801e79PostConfirmation",
+  "parentStack": "auth",
+  "triggerEnvs": [],
+  "triggerDir": "/usr/local/lib/node_modules/@aws-amplify/cli/node_modules/amplify-category-auth/provider-utils/awscloudformation/triggers/PostConfirmation",
+  "triggerTemplate": "PostConfirmation.json.ejs",
+  "triggerEventPath": "PostConfirmation.event.json",
+  "roleName": "ch7ecommerceapp47801e79PostConfirmation",
+  "skipEdit": true,
+  "GROUP": "Admin",
+  "enableCors": false
+}

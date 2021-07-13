@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "auth": {
+      "ch7ecommerceapp47801e79": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    },
+    "storage": {
+      "producttable": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    }
+  },
+  "lambdaLayers": []
+}
