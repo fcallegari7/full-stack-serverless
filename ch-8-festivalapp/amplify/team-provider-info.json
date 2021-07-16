@@ -1,0 +1,27 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ch8festivalapp-dev-105925-authRole",
+      "UnauthRoleArn": "arn:aws:iam::585655980596:role/amplify-ch8festivalapp-dev-105925-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::585655980596:role/amplify-ch8festivalapp-dev-105925-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-ch8festivalapp-dev-105925-deployment",
+      "UnauthRoleName": "amplify-ch8festivalapp-dev-105925-unauthRole",
+      "StackName": "amplify-ch8festivalapp-dev-105925",
+      "StackId": "arn:aws:cloudformation:us-west-2:585655980596:stack/amplify-ch8festivalapp-dev-105925/90696540-e65f-11eb-990a-0abb512a1f57",
+      "AmplifyAppId": "d1zy4qoajgnl9l"
+    },
+    "categories": {
+      "function": {
+        "ch8festivalappf2301cc2PostConfirmation": {
+          "GROUP": "Admin",
+          "deploymentBucketName": "amplify-ch8festivalapp-dev-105925-deployment",
+          "s3Key": "amplify-builds/ch8festivalappf2301cc2PostConfirmation-6d6644484c6f4e445a6d-build.zip"
+        }
+      },
+      "auth": {
+        "ch8festivalappf2301cc2": {}
+      }
+    }
+  }
+}
