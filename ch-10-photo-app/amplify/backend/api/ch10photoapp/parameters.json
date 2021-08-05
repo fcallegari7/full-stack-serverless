@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "ch10photoapp",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authch10photoappcfcf2b1e",
+      "Outputs.UserPoolId"
+    ]
+  }
+}
