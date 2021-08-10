@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "ch11fullstackappcb4fbdfc": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
